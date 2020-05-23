@@ -1,0 +1,83 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family:cursive;
+}
+
+.Intro {
+    background-color: darkgrey;
+}
+
+title {
+
+}
+
+p {
+    font-family:cursive;
+}
+
+.information {
+    background-color: darkgrey;
+    font-size: 2px;
+}
+
+.navbar-nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: black !important;
+}
+
+.navbar-brand {
+    color: grey !important;
+    font-family: cursive;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 900;
+}
+
+.lead {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+.p-white {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.jumbotron {
+    background-image: url("https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/92800953_1283580901844884_6560687884670599168_o.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_eui2=AeGITVwk5vkoCxhr7y6zqHDEWI2ijv5sHnRYjaKO_mwedFJSjjKFLqpJebDr4XhZcHU&_nc_ohc=eZuOoq6nFIkAX9QTqTG&_nc_ht=scontent-jnb1-1.xx&oh=36068060612724a1df5edf6ceb4627a1&oe=5EE7B2F4");
+    background-size: cover;
+    background-position-x: 0cm;
+    background-position-y: 20%;
+    border: 15cm;
+    height: calc(100vh - 61px);
+    margin-top: 61px;
+}
+
+.facebook-png {
+    width: 1.2cm;
+}
+
+.display-4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.richcartoon {
+    width: 1.2cm;
+}
+
+.col-lg-12{
+    background-image: url("https://s3.amazonaws.com/noupe/2009/10/pattern-34.jpg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
