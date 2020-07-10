@@ -1,32 +1,31 @@
 body {
-    background-color: whitesmoke;
+    background-image: url("../images/IMG_0201.jpg"); 
+    background-size: cover;
+    background-position: 0px -485px;
 }
 
-h1 {
-    font-family:cursive;
+footer {
+    color: rgba(204, 204, 204, 0.733);
+}
+
+.Top-Intro {
+    background-color: rgba(255, 255, 255, 0.795);
+}   
+
+hr {
+    color: black;
+    border: black;
 }
 
 .Intro {
-    background-color: darkgrey;
-}
-
-title {
-
-}
-
-p {
-    font-family:cursive;
-}
-
-.information {
-    background-color: darkgrey;
-    font-size: 2px;
+    background-color: rgba(235, 235, 235, 0.623);
 }
 
 .navbar-nav a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    color: black !important;
+    color: white !important;
+
 }
 
 .navbar-brand {
@@ -36,48 +35,117 @@ p {
 
 .navbar {
     overflow: hidden;
-    background-color: black;
+    background-color: #00000054;
     position: fixed;
-    top: 0; 
+    top: 0;
     width: 100%; 
     z-index: 900;
 }
 
 .lead {
     font-family: Arial, Helvetica, sans-serif;
-    color: white
+    color: darkslategrey
 }
 
 .p-white {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: darkslategray;
 }
 
 .jumbotron {
-    background-image: url("https://scontent-jnb1-1.xx.fbcdn.net/v/t1.0-9/92800953_1283580901844884_6560687884670599168_o.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_eui2=AeGITVwk5vkoCxhr7y6zqHDEWI2ijv5sHnRYjaKO_mwedFJSjjKFLqpJebDr4XhZcHU&_nc_ohc=eZuOoq6nFIkAX9QTqTG&_nc_ht=scontent-jnb1-1.xx&oh=36068060612724a1df5edf6ceb4627a1&oe=5EE7B2F4");
-    background-size: cover;
+    background-color: transparent;
     background-position-x: 0cm;
     background-position-y: 20%;
-    border: 15cm;
-    height: calc(100vh - 61px);
-    margin-top: 61px;
-}
-
-.facebook-png {
-    width: 1.2cm;
 }
 
 .display-4 {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 
-.richcartoon {
-    width: 1.2cm;
+.rbm-logo {
+    background-size: cover;
+    width: 600px;
 }
 
-.col-lg-12{
-    background-image: url("https://s3.amazonaws.com/noupe/2009/10/pattern-34.jpg");
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+.Top-Intro {
+    margin-top: 100px;
+    background-color: rgba(204, 204, 204, 0.315);
+}
+
+.logo-break {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.title-break {
+    border: 0.6px solid rgb(0, 0, 0)
+}
+
+.main-carousel .carousel-item img{
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+.mb-5 .flex-center{
+    align-items: center;
+}
+
+.intro-pic1 {
+    width: 20%;
+    height: 20%
+}
+
+.intro-pic2 {
+    width: 20%;
+    height: 20%
+}
+
+.intro-pic3 {
+    width: 20%;
+    height: 20%
+}
+
+.intro-pic4 {
+    width: 20%;
+    height: 20%
+}
+
+.intro-pic5 {
+    width: 15%;
+    height: 20%
+}
+
+.intro-pic6 {
+    width: 20%;
+    height: 20%
+}
+
+.intro-pic7 {
+    width: 20%;
+    height: 20%
+}
+
+.intro-pic8 {
+    width: 20%;
+    height: 20%
+}
+
+.intro-pic9 {
+    width: 15%;
+    height: 20%
+}
+
+.intro-pic10 {
+    width: 20%;
+    height: 20%
+}
+
+.gallerytop {
+    color: rgb(124, 121, 121) !important;
+    border-style: solid !important;
+}
+
+.gallerybot {
+    color: darkmagenta !important;
+    border-style: inset !important;
 }
